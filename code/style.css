@@ -1,19 +1,22 @@
 body {
     margin: 0;
     padding: 0;
+
     font-family: Arial, Helvetica, sans-serif;
+}
+.alt-bg {
     background: url(/img/hero.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 nav {
-    position: fixed;
+    position: relative;
     top: 0;
     width: 100%;
     height: 100px;
     box-sizing: border-box; 
 }
-img {
+.bg {
     width: 100px;
     height: 100px;
     margin-left: 330px;
@@ -39,7 +42,8 @@ nav ul li a {
 .content {
     width: 100%;
     margin-top:  300px;
-    color: white;  
+    color: white;
+    height: 550px;  
 }
 h1 {
     margin-left: 150px;
@@ -65,4 +69,157 @@ h1 {
     color: orange;
     border: solid 2px orange;
     font-weight: 200;
+}
+.img-content {
+    width: 100%;
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.cci {
+    width: 100%;
+    height: 800px;
+}
+.img-food {
+    width: 100%;
+    height: 590px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.imf {
+    width: 100%;
+    height: 590px;
+}
+.phone {
+    width: 100%;
+    height: 700px;
+}
+.nott-head {
+    width: 100%;
+    height: 15px;
+}
+.hiw {
+    width: 100%;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+}
+.line {
+    display: flex;
+    width: 100%;
+    height: 15px;
+}
+.line1 {
+    width: 45%;
+    height: 15px;
+}
+.line2 {
+    width: 8%;
+    height: 15px;
+    border-bottom: solid 5px orange;
+}
+.line3 {
+    width: 40%;
+    height: 15px;
+}
+.phone-in {
+    width: 100%;
+    height: 625px;
+    display: flex;
+}
+.push {
+    width: 25%;
+    height: 625px;
+}
+.behind {
+    width: 25%;
+    height: 625px; 
+}
+.phone-img {
+    width: 20%;
+    height: 625px;
+}
+.iphone {
+    height: 65%;
+    width: 55%;
+    margin-left: 90px;
+    margin-top: 95px;
+}
+.info{
+    width: 30%;
+    height: 625px;
+}
+.info-head-nott {
+    width: 100%;
+    height: 90px;
+}
+.info-content1 {
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+.starc1 {
+    width: 20%;
+    height: 80px;
+}
+.letters1 {
+    width: 100%;
+    height: 80px;
+    font-size: 14px;
+}
+.info-content2 {
+    width: 100%;
+    height: 90px;
+    display: flex;
+}
+.starc2 {
+    width: 20%;
+    height: 90px;
+}
+.letters2 {
+    width: 90%;
+    height: 70px;
+    font-size: 14px;
+}
+.info-content3 {
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+.starc3 {
+    width: 20%;
+    height: 80px;
+}
+.letters3 {
+    width: 100%;
+    height: 80px;
+    font-size: 15px;
+}
+.stars {
+    height: 80px;
+}
+.starss {
+    height: 90px;
+}
+.andr {
+    padding: 1px 1px;
+    cursor: pointer;
+    background: transparent;
+    border: transparent;
+    margin-left: 40px;
+}
+.ios {
+    padding: 1px 1px;
+    cursor: pointer;
+    background: transparent;
+    border: transparent;
+    margin-left: 40px;
+}
+.picsios {
+    height: 56.5px;
 }
