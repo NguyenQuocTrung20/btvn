@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#first {
+    margin-left: 130px;
+   visibility: hidden;
+}
+#second {
+    margin-left: 650px;
+    visibility:hidden;
+}
+#third {
+    margin-left: 130px;
+    visibility:hidden;
+}
+#fouth {
+    margin-left: 650px;
+    visibility:hidden;
+}
+#fith {
+    margin-left: 130px;
+    visibility:hidden;
+}
+#six {
+    margin-left: 650px;
+    visibility:hidden;
+}
